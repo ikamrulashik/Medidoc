@@ -9,7 +9,7 @@ This is a Web based application which combines all the required healthcare servi
 - [Md. Kamrul Islam Asik - 1712953642](https://www.github.com/ikamrulashik)
 - [Shadman Sameer - 1712815642](https://github.com/shuvros)
   
-## Tools/framework used:
+## Tools/framework used
 
 - React Js
 - Node Js
