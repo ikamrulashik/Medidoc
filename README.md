@@ -27,5 +27,6 @@ This is a Web based application which combines all the required healthcare servi
 - Video Conferencing
 - E-Prescription
 - Online Pharmacy
+- Print Billing Recipt
 
   
