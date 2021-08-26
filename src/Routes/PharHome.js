@@ -1,9 +1,9 @@
 import React from 'react'
 
-function Nav() {
+function PharHome() {
     return <div>
 
     </div>
 }
 
-export default Nav;
+export default PharHome;

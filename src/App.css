@@ -36,6 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.icon{
+  width: 300px;
+  height: 70px;
+  margin-bottom: 2rem;
+}
 .footer{
   margin-top: 1rem;
   padding: 1rem;
@@ -45,3 +50,4 @@
   left: 0;
   width: 100%;
 }
+/* sidebar */
