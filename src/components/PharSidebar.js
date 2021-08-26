@@ -1,18 +1,18 @@
 import React from 'react';
 import {CDBSidebar, CDBSidebarContent, CDBSidebarFooter, CDBSidebarHeader, CDBSidebarMenu, CDBSidebarMenuItem,} from 'cdbreact';
 import logo from './logo.svg'
-import logout from './logout.svg'
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom'
+import logout from './logout.svg';
 
-const Sidebar = () => {
+const PharSidebar = () => {
   return (
     <div
       style={{ display: 'flex', height: '100vh', overflow: 'scroll initial' }}
     >
-      <CDBSidebar textColor="#fff" backgroundColor="#605bff">
+      <CDBSidebar textColor="#fff" backgroundColor="#ee8651">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a
-            href="/"
+            href="/pharmacy"
             className="text-decoration-none"
             style={{ color: 'inherit' }}
           >
@@ -22,17 +22,17 @@ const Sidebar = () => {
 
         <CDBSidebarContent className="sidebar-content">
           <CDBSidebarMenu>
-            <NavLink exact to="/home" activeClassName="activeClicked">
+            <NavLink exact to="/pharmacy" activeClassName="activeClicked" style={{color: "#ee8651"}}>
               <CDBSidebarMenuItem icon="columns">Dashboard</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/schedule" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="table">Schedule</CDBSidebarMenuItem>
+            <NavLink exact to="/invoice" activeClassName="activeClicked" >
+              <CDBSidebarMenuItem icon="table">Invoice</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/patient" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="user">Patients</CDBSidebarMenuItem>
+            <NavLink exact to="/medicine" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="capsules"> Medicine</CDBSidebarMenuItem>
             </NavLink>
-            <NavLink exact to="/generics" activeClassName="activeClicked">
-              <CDBSidebarMenuItem icon="capsules"> Generics</CDBSidebarMenuItem>
+            <NavLink exact to="/customer" activeClassName="activeClicked">
+              <CDBSidebarMenuItem icon="user">Customer</CDBSidebarMenuItem>
             </NavLink>
           </CDBSidebarMenu>
         </CDBSidebarContent>
@@ -47,4 +47,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default PharSidebar;

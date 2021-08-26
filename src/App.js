@@ -5,6 +5,7 @@ import Login from './routes/Login'
 import Register from './routes/Register'
 import ChangePass from './routes/ChangePass'
 import DocHome from './routes/DocHome';
+import Pharmacy from './routes/Pharmacy';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route exact path="/changepass" component={ChangePass}/>
       <Route exact path="/register" component={Register}/>
       <Route exact path="/home" component={DocHome}/>
+      <Route exact path="/pharmacy" component={Pharmacy}/>
       </BrowserRouter>    
     </div>
   );

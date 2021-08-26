@@ -1,9 +1,8 @@
 import React from 'react'
-import Login from './Login'
 import logo from '../logo.svg'
 import doctor from '../images/doctor.png'
 import {Link} from 'react-router-dom'
-import {Col, Container, Row, Form, Button, FloatingLabel} from "react-bootstrap"
+import {Col, Container, Row, Form, Button} from "react-bootstrap"
 
 
 
