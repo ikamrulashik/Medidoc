@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../logo.svg'
-import doctor from '../images/doctor.png'
+import doctor from '../images/doctor.svg'
 import {Link} from 'react-router-dom'
 import {Col, Container, Row, Form, Button} from "react-bootstrap"
 
@@ -79,7 +79,7 @@ function Register() {
                             </div>
                             
                             <div className="mt-3">
-                                <Link style={login} to="/">Already Have an account?</Link>
+                                <Link style={login} to="/login">Already Have an account?</Link>
                             </div>
                         </Form>
                     </Col>

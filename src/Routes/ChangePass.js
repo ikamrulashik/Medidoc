@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../logo.svg'
-import doctor from '../images/doctor.png'
+import doctor from '../images/doctor.svg'
 import {Link} from 'react-router-dom'
 import {Col, Container, Row, Form, Button} from "react-bootstrap"
 
@@ -48,7 +48,7 @@ function ChangePass () {
                         </Form>
                         <div className="d-flex justify-content-start" >
                                 <Form.Group  as={Col} >                                   
-                                        <Link style={login} to="/">Log in</Link>                            
+                                        <Link style={login} to="/login">Log in</Link>                            
                                </Form.Group>
                                 <Form.Group  as={Col} >                 
                                     <Link style={cancel} to="/">Cancel</Link>

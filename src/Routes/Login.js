@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../logo.svg'
-import doctor from '../images/doctor.png'
+import doctor from '../images/doctor.svg'
 import {Link} from 'react-router-dom'
 import {Col, Container, Row, Form, Button} from "react-bootstrap"
 import Footer from '../components/Footer'

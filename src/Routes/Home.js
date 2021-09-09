@@ -2,7 +2,7 @@ import React from 'react'
 import {Navbar, Col, Container, Row, Form, Button} from "react-bootstrap"
 import logo from '../logo.svg'
 import {Link} from 'react-router-dom'
-import doctor from '../images/doctor.png'
+import doctor from '../images/doctor.svg'
 
 var button ={
     color: "white",
