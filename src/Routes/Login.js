@@ -30,7 +30,7 @@ function Login () {
                             <img className="w-100" src={doctor}/>
                         </div>
                     </Col>
-                    <Col lg={4} md={6} sm={12} className="text-center mt-5 p-3">
+                    <Col lg={4} md={6} sm={12} className="text-center mt-2 p-3">
                         <br/>
                         <img className= "icon" src={logo} alt="icon"/>
                         <Form onSubmit={DocHome}>

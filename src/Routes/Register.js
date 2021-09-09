@@ -52,7 +52,7 @@ function Register() {
                                 <Form.Group  as={Col} >
                                     <Col xs="auto" className="my-1">
                                         <Form.Label className="d-flex justify-content-start p-1"> Gender</Form.Label>
-                                        <Form.Select className="me-sm-3" id="inlineFormCustomSelect">
+                                        <Form.Select className="me-sm-2" id="inlineFormCustomSelect">
                                             <option value="0">Male</option>
                                             <option value="1">Female</option>
                                             <option value="2">Others</option>
@@ -62,7 +62,7 @@ function Register() {
                                 <Form.Group as= {Col}>
                                     <Col xs="auto" className="my-1">
                                         <Form.Label className="d-flex justify-content-start p-1"> User type</Form.Label>
-                                        <Form.Select className="me-sm-3" id="inlineFormCustomSelect">
+                                        <Form.Select className="me-sm-2" id="inlineFormCustomSelect">
                                             <option value="0">Patient</option>
                                             <option value="1">Doctor</option>
                                             <option value="2">Pharmacy</option>

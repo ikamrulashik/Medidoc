@@ -12,7 +12,7 @@ const Sidebar = () => {
       <CDBSidebar textColor="#fff" backgroundColor="#605bff">
         <CDBSidebarHeader prefix={<i className="fa fa-bars fa-large"></i>}>
           <a
-            href="/"
+            href="/home"
             className="text-decoration-none"
             style={{ color: 'inherit' }}
           >
