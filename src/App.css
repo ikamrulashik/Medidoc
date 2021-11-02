@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 .App-logo {
   height: 40vmin;
@@ -49,5 +49,6 @@
   bottom: 0;
   left: 0;
   width: 100%;
+  text-align: center;
 }
 /* sidebar */

@@ -3,8 +3,10 @@ import logo from '../logo.svg'
 import doctor from '../images/doctor.svg'
 import {Link} from 'react-router-dom'
 import {Col, Container, Row, Form, Button} from "react-bootstrap"
+import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import DocHome from './DocHome'
+
 
 var link={
     color: "blue",
@@ -23,17 +25,19 @@ var register={
 function Login () {
     return ( 
         <div style={{backgroundColor:"#F1F8FF", minHeight: "100vh"}}>
-            <Container className>
+            <Navbar/>
+            
+            <Container id="header">
                 <Row className="d-flex justify-content-center">
-                    <Col lg={6} md={6} sm={12}>
-                        <div className="mt-5">
-                            <img className="w-100" src={doctor}/>
+                    <Col lg={7} md={6} sm={12}>
+                        <div className="order-1 order-lg-2 header-img ">
+                            <img className="img-fluid animated" src={doctor}  alt="home img" />
                         </div>
                     </Col>
-                    <Col lg={4} md={6} sm={12} className="text-center mt-2 p-3">
-                        <br/>
-                        <img className= "icon" src={logo} alt="icon"/>
+                    <Col lg={4} md={12} sm={12} className="text-center mt-2 p-3">
+                        
                         <Form onSubmit={DocHome}>
+                        
                             <Form.Group  className="mb-3" controlId="formBasicEmail">     
                                 <Form.Control type="email" placeholder="Your email" />
                             </Form.Group>
@@ -54,6 +58,7 @@ function Login () {
                     </Col>
                 </Row>
             </Container>
+            <Footer/>
         </div>
     )
 }
