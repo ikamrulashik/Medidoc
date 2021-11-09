@@ -3,13 +3,12 @@ import logo from '../logo.svg'
 import {Link} from 'react-router-dom'
 import home from '../images/home.svg'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar';
-
+import NavbarC from '../components/NavbarC';
 
 function Home (){
     return (
         <div style={{backgroundColor:"#F1F8FF", minHeight: "100vh"}}>
-            <Navbar/>
+            <NavbarC/>
             <section id="header" className="d-flex align-items-center">
                 <div className="container-fluid nav-bg">
                     <div className="row">

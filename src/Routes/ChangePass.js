@@ -1,11 +1,9 @@
 import React from 'react'
-import logo from '../logo.svg'
 import doctor from '../images/doctor.svg'
 import {Link} from 'react-router-dom'
 import {Col, Container, Row, Form, Button} from "react-bootstrap"
-import Navbar from '../components/Navbar'
+import NavbarC from '../components/NavbarC'
 import Footer from '../components/Footer'
-
 
 var login={
     color: "white",
@@ -24,12 +22,12 @@ var cancel={
     fontStyle: "bold",
     margin: "20px",
     textDecoration: "none"
-
 }
+
 function ChangePass () {
     return ( 
         <div style={{backgroundColor:"#F1F8FF", minHeight: "100vh"}}>
-            <Navbar/>
+            <NavbarC/>
             <Container id="header">
                 <Row className="d-flex justify-content-center">
                     <Col lg={7} md={6} sm={12}>

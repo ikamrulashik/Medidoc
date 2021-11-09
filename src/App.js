@@ -6,8 +6,8 @@ import Home from './routes/Home'
 import Login from './routes/Login' 
 import Register from './routes/Register'
 import ChangePass from './routes/ChangePass'
-import DocHome from './routes/DocHome';
-import Pharmacy from './routes/Pharmacy';
+import PatientHome from './routes/PatientHome';
+import Doctor from './routes/Doctor';
 
 function App() {
   return (
@@ -17,9 +17,9 @@ function App() {
       <Route exact path="/login" component={Login}/>
       <Route exact path="/changepass" component={ChangePass}/>
       <Route exact path="/register" component={Register}/>
-      <Route exact path="/doctor" component={DocHome}/>
-      <Route exact path="/pharmacy" component={Pharmacy}/>
-      {/* <Redirect to ="/" /> */}
+      <Route exact path="/patient" component={PatientHome}/>
+      <Route exact path="/doctor" component={Doctor}/>
+
       </BrowserRouter>    
     </div>
   );

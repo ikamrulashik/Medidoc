@@ -1,11 +1,10 @@
 import React from 'react'
-import logo from '../logo.svg'
 import doctor from '../images/doctor.svg'
 import {Link} from 'react-router-dom'
 import {Col, Container, Row, Form, Button} from "react-bootstrap"
-import Navbar from '../components/Navbar'
+import NavbarC from '../components/NavbarC'
 import Footer from '../components/Footer'
-import DocHome from './DocHome'
+
 
 
 var link={
@@ -25,7 +24,7 @@ var register={
 function Login () {
     return ( 
         <div style={{backgroundColor:"#F1F8FF", minHeight: "100vh"}}>
-            <Navbar/>
+            <NavbarC/>
             
             <Container id="header">
                 <Row className="d-flex justify-content-center">
@@ -36,7 +35,7 @@ function Login () {
                     </Col>
                     <Col lg={4} md={12} sm={12} className="text-center mt-2 p-3">
                         
-                        <Form onSubmit={DocHome}>
+                        <Form>
                         
                             <Form.Group  className="mb-3" controlId="formBasicEmail">     
                                 <Form.Control type="email" placeholder="Your email" />
