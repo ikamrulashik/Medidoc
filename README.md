@@ -17,7 +17,7 @@ This is a Web based application which combines all the required healthcare servi
 - MySQL
 
   
-<img height=150 src="medidoc-logo.png"/>
+<img height=150 src="./web/medidoc-logo.png"/>
 
     
 ## Features
@@ -28,5 +28,3 @@ This is a Web based application which combines all the required healthcare servi
 - E-Prescription
 - Online Pharmacy
 - Print Billing Recipt
-
-  
