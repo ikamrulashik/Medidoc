@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar-brand {
+    height: 50%;
+    width: 50%;
+}
+.btn-outline-primary{
+  margin: 10px;
+}
+
+/* home content */
+ #header {
+   width: 100%;
+   height: 50vh;
+   margin-top: 70px;
+ }
+ #home-title{
+  width: 100%;
+  height: 50vh;
+  margin-top: 70px;
+  margin-left: 40px;
+ }
+
+ #home-title h1{
+   margin: 0 0 10px 0;
+   font-size: 48px;
+   font-weight: 700;
+   color: black;
+ }
+ #home-title .brand-name{
+   color: #268065;
+ }
+ #home-title h2{
+   color: #484847;
+   font-size: 25px;
+ }
+ #home-title .btn-get {
+   font-weight: 500;
+   font-size: 16px;
+   letter-spacing: 1px;
+   display: inline-block;
+   padding: 10px 30px;
+   border-radius: 50px;
+   transition: 0.5s;
+   color: #268065;
+   border: 1px solid #268065;
+   text-decoration: none;
+ }
+ #home-title .btn-get:hover {
+   background: #268065;
+   color: #fff;
+ }
+ .header-img {
+   text-align: right;
+ }
+ #home-title .animated {
+   animation: up-down 2s ease-in-out infinite alternate-reverse both;
+ }
+ #header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+ @-webkit-keyframes up-down {
+   0% {
+     transform: translateY(10px);
+   }
+   100% {
+     transform: translateY(-10px);
+   }
+ }
+ @keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+#navauth{
+  align-content: left;
+}
+.nav-avatar {
+  width: 40px;
+  justify-content: center;
+}
+.nav-mess{
+  margin-top: 11px;
+  width: 20px;
+}
+.nav-noti{
+  margin-top: 0px;
+  width: 25px;
+}
+.doc-img{
+  width: 40%;
+}
+.card-patient{
+  padding: 10px;
+  border-radius: 15px;
+  border-color: none;
+  height: 75px;
+  
+}
+.card-npd{
+  padding: 10px;
+  border-radius: 15px;
+  border-color: none;
+  height: 275px;
+}
+
+.pat-avatar{
+  position: absolute;
+  width: 64px;
+  height: 50px;
+  left: 16px;
+}
+.pat-text{
+  position: absolute;
+  width: 160px;
+  height: 0px;
+  left: 100px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #000000;
+}
+.patient-status{
+  position: absolute;
+  width: 87px;
+  height: 25px;
+  left: 550px;
+  top: 20px;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  
+  color: #00B2FF;
+  
+}
+
+.patient-header{
+  position: absolute;
+
+left: 100px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+
+}
+.patient-call{
+  position: absolute;
+  width: 100px;
+  left: 450px;
+  top: 10px;
+}
+.patient-details{
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  width: 500px;
+  text-align: center;
+}
+.btn-ptnt{
+  position: absolute;
+  left: 50px;
+  top: 200px;
+  text-decoration: none;
+}
+.divider{
+  width:5px;
+  height:auto;
+  display:inline-block;
+}
+.card-content{
+  padding: 20px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card-top {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 30px;
+}
+.datetime{
+  text-align: center;
+}
