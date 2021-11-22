@@ -1,24 +1,23 @@
 import React from "react";
 import {Container, Row, Col, Card, Nav } from "react-bootstrap";
 import { withRouter } from "react-router";
-import Sidebar from "../components/sidebar/Sidebar";
-import '../components/sidebar/Sidebar.css'
+import Sidebar from "../components/sidebar/doctor/Sidebar";
+import '../components/sidebar/doctor/Sidebar.css'
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import doctor from "../images/doctor.svg"
 import avatar from "../assets/avatar.svg"
 import chart from "../components/charts/chart.svg"
 import message from "../assets/message.svg"
+import notification from "../assets/notification.svg";
 import AppCard from "../components/dashboard/AppCard"
 import PatDet from "../components/dashboard/PatDet";
 import Appointment from "../components/dashboard/Appointment";
-import notification from "../assets/notification.svg";
 import {Link} from 'react-router-dom'
+
 const Dash = props => {
    
-
     return (
         <>
-        
          <Container fluid>
                 <Row>
                     <Col xs={2} id="sidebar-wrapper">      
@@ -39,22 +38,23 @@ const Dash = props => {
                           </Nav.Link>
                         </Nav.Item>
                       </Nav>
-                        
-                        <div className="card card-top">
+                      <div className="content-header">
+                        <div className="card card-top doctor-header">
                           <Row xs={1} md={2}>
                             <Col>
-                            <div>
+                            <div className = "doctor-title">
                                 <h4>Good Morning, Dr. Something</h4>
                                 <h5>Have a nice day at work</h5>
                               </div>
                             </Col>
-                            <Col>
-                              <div className="text-center">
-                                <img className= "doc-img" src={doctor} />
-                              </div>
-                            </Col>
                           </Row>
                         </div>
+                        <div className="header-image">
+                          <img className= "doc-img" src={doctor} />
+                        </div>
+                      </div>
+                        
+                        {/*  */}
                       </div>
                       <br/>
                       <h5 className="datetime">10.00 pm - 17 November 2021 Wednesday</h5>

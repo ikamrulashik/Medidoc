@@ -110,6 +110,9 @@ code {
 .doc-img{
   width: 40%;
 }
+.phar-img{
+  width: 13.5%;
+}
 .card-patient{
   padding: 10px;
   border-radius: 15px;
@@ -140,7 +143,6 @@ code {
   font-weight: bold;
   font-size: 20px;
   line-height: 23px;
-
   color: #000000;
 }
 .patient-status{
@@ -149,28 +151,47 @@ code {
   height: 25px;
   left: 550px;
   top: 20px;
-  
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
   line-height: 25px;
   text-align: center;
-  
   color: #00B2FF;
-  
 }
 
 .patient-header{
   position: absolute;
+  left: 100px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+}
 
-left: 100px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 12px;
-
+.doctor-header{
+  text-align: center;
+  height: 25vh;
+  justify-content: center;
+}
+.phar-header{
+  height: 25vh;
+  text-align: center;
+  justify-content: center;
+}
+.header-image{
+  position: absolute;
+  width: 110vh;
+  height: 480px;
+  left: 60%;
+  top: 4%;
+}
+.phar-image{
+  position: absolute;
+  width: 100vw;
+  height: 50vh;
+  left: 60%;
+  top: 4%;
 }
 .patient-call{
   position: absolute;
@@ -206,4 +227,91 @@ font-size: 12px;
 }
 .datetime{
   text-align: center;
+}
+
+/* video call */
+
+.video-frame{
+  position: absolute;
+  width: 60vw;
+  height: 60vh;
+  left: 5%;
+  top: 170px;
+  background: #E8F8FF;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.video-chat{
+  position: absolute;
+  width: 25vw;
+  height: 80vh;
+  left: 70%;
+  top: 121px;
+  background: #E8F8FF;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.add-medicine{
+  padding: 20px;
+  float: left;
+  position: absolute;
+  right: 0;
+  left: 60;
+  width: 200px;
+  transform: translateY(-50%);
+}
+.pres-btn{
+  position: absolute;
+  width: 10vw;
+  height: 5vh;
+  left:5%;
+  top: 80%;
+  background: #605BFF;
+  border-radius: 10px;
+  color: white;
+}
+.navbar-logo{
+  width: 90px;
+}
+
+.call-icon {
+  width: 40px;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container > .call-icon {
+  margin: 10px;
+  height: 100px;
+  line-height: 110vh;
+  font-size: 30px;
+}
+.second-person {
+  position: absolute;
+  width: 30vw;
+  height: 40vh;
+  left: 400px;
+  top: 150px;
+  border: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.video body > .video-header{
+  left: 90px;
+  padding: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+}
+.chat-header {
+  text-align: center;
+  padding: 10px;
+  font-family: Roboto;
+  font-style: normal;
 }

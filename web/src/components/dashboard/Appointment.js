@@ -3,6 +3,7 @@ import {Row, Col, Card} from "react-bootstrap";
 import avatar from "../../assets/avatar.svg"
 import accept from "../../assets/accept.svg"
 import reject from "../../assets/reject.svg"
+import { Link } from 'react-router-dom';
 
 
 function Appointment () {
@@ -18,8 +19,9 @@ function Appointment () {
             <Card.Text><h6>Medical Checkup</h6></Card.Text>
           </div>
           <div className="patient-status">
-            <img src={accept}/> <div className="divider"/>
-            <img src={reject}/>
+            <Link className="btn btn-link"><img src={accept}/></Link>
+             <div className="divider"/>
+            <Link><img src={reject}/></Link>
           </div>
       
       </Card>

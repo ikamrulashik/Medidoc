@@ -28,7 +28,6 @@ function NavbarC(){
                             </Navbar.Collapse>
                         </Container>
                     </Navbar>
-                
             </div>
         </div>
     )
