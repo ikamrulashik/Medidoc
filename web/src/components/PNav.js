@@ -3,7 +3,6 @@ import logo from '../logo.svg'
 import logout from './logout.svg'
 import {Link} from 'react-router-dom'
 import { Nav, Navbar, Form, Container, FormControl, Button } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.css'
 
 function PNav() {
     return (

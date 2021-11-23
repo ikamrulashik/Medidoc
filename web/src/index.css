@@ -315,3 +315,34 @@ code {
   font-family: Roboto;
   font-style: normal;
 }
+#patient-title h1{
+  margin: 0 0 15px 0;
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+}
+
+#patient-title .btn-get {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 0px;
+  transition: 0.5s;
+  color: #268065;
+  border: 1px solid #268065;
+  text-decoration: none;
+}
+#patient-title .btn-get:hover {
+  background: #268065;
+  color: #fff;
+}
+#patient-title .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.patient-service{
+  text-align: center;
+  height: 30vh;
+
+}
