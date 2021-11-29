@@ -1,0 +1,132 @@
+.header-sec {
+  margin-left: -960px;
+  color: black;
+  font-weight: 700;
+}
+
+* {
+  /* Reset browser's padding and margin */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* The point of this tutorial is here */
+.form {
+  display: flex;
+  flex-direction: row;
+}
+.search-field {
+  width: 330px;
+  padding: 10px 35px 10px 15px;
+  border: 1px solid grey;
+  border-radius: 14px;
+  outline: none;
+  margin-left: -3px;
+}
+/* 31-84 */
+.medicine-input-box {
+  margin-top: 40px;
+  margin-left: 980px;
+  width: 300px;
+  border-radius: 14px;
+  border: 0px solid grey;
+  height: 40px;
+  background-color: #f5f5f7;
+}
+
+.medicine-search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -283px;
+}
+
+.medicine-search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+.medicine-medicine-btn {
+  background-color: #27a680;
+  border: 0px;
+  border-radius: 8px;
+  color: white;
+  width: 185px;
+  height: 37px;
+  font-size: 15px;
+}
+.medicine-upload-btn {
+  background-color: #0075ff;
+  border: 0px;
+  margin-left: 12px;
+  border-radius: 8px;
+  color: white;
+  width: 185px;
+  height: 37px;
+  font-size: 15px;
+}
+.medicine-btn-pos {
+  overflow-x: hidden;
+}
+
+.medicine-medicine-border {
+  border: 1px solid #f5f5f7;
+  border-radius: 14px;
+  width: 1180px;
+  background-color: #f5f5f7;
+  margin-left: 12px;
+}
+.medicine-grp {
+  font-size: 12px;
+}
+.pill-icon {
+  font-size: 40px;
+}
+.order-btn {
+  background-color: #ee8651;
+  color: white;
+  width: 160px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 13px;
+  border: 0px solid;
+}
+.stock-btn {
+  background-color: #ffffff;
+  color: black;
+  width: 160px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 13px;
+  border: 0px solid;
+}
+.edit-btn {
+  background-color: #0075ff;
+  color: white;
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 13px;
+  border: 0px solid;
+}
+.delete-btn {
+  background-color: #fd0000;
+  color: white;
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 13px;
+  border: 0px solid;
+}
+.composition {
+  width: 87px;
+  height: 55px;
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  margin-left: 182px;
+}
+.mrp {
+  margin-left: 30px;
+}

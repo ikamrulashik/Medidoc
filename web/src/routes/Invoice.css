@@ -1,0 +1,149 @@
+.print-btn {
+  background-color: #c4c4c4;
+  color: white;
+  width: 91px;
+  height: 29px;
+  border-radius: 8px;
+  font-size: 15px;
+  border: 0px solid;
+  margin-left: 800px;
+  margin-top: -40px;
+}
+.save-btn {
+  background-color: #0075ff;
+  color: white;
+  width: 91px;
+  height: 29px;
+  border-radius: 8px;
+  font-size: 15px;
+  border: 0px solid;
+  margin-left: 24px;
+  margin-top: -40px;
+}
+.invoice-section {
+  background-color: #f5f5f7;
+  margin-left: 60px;
+  width: 1097px;
+  border-radius: 14px;
+}
+.customer-name {
+  width: 270px;
+  height: 22px;
+  border: 0.5px solid #a3a3a5;
+  border-radius: 4px;
+  margin-top: 2px;
+  margin-left: 5px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+  font-weight: 400;
+  padding-left: 12px;
+}
+.customer-addres {
+  border: 0.5px solid #a3a3a5;
+  width: 371px;
+  border-radius: 8px;
+  height: 79px;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: start;
+  padding-left: 15px;
+  padding-top: 5px;
+  margin-left: -5px;
+  background-color: white;
+}
+.pharma-logo {
+  background-color: white;
+  width: 82px;
+  border: 0.5px solid #a3a3a5;
+  border-radius: 50%;
+  height: 78px;
+  padding-right: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 10px;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: 40px;
+}
+.pharma {
+  margin-top: 23px;
+  margin-left: 16px;
+}
+.date-info {
+  width: 202px;
+  height: 28px;
+  border: 0.5px solid #a3a3a5;
+  border-radius: 8px;
+}
+.date-box {
+  margin-left: 170px;
+}
+.order-box {
+  margin-top: 55px;
+  margin-left: 170px;
+}
+.margin-info {
+  margin-right: 136px;
+}
+.margin-horizental {
+  margin-top: -15px;
+}
+.selling-name {
+  width: 391px;
+  height: 93px;
+  font-weight: 500;
+  padding-left: 15px;
+  border: 0.5px solid #a3a3a5;
+  border-radius: 8px;
+}
+.quantity {
+  width: 147px;
+  height: 29px;
+  border-radius: 8px;
+  border: 0.5px solid #a3a3a5;
+  margin-left: 60px;
+}
+.rate {
+  width: 147px;
+  height: 29px;
+  border-radius: 8px;
+  border: 0.5px solid #a3a3a5;
+  margin-left: 40px;
+}
+.margin-hori {
+  margin-top: 15px;
+}
+.new-line {
+  width: 91px;
+  height: 29px;
+  background: #ee8651;
+  border: 0.5px solid #ee8651;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -35px;
+}
+.tax {
+  width: 48px;
+  height: 29px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: 0.5px solid #a3a3a5;
+  margin-left: 0px;
+  /* padding-right: 3px; */
+}
+.rate-tax {
+  width: 147x;
+  height: 29px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: 0.5px solid #a3a3a5;
+  margin-left: 0px;
+}

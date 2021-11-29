@@ -1,0 +1,58 @@
+.delete-btn {
+  background-color: #fd0000;
+  color: white;
+  width: 75px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 13px;
+  border: 0px solid;
+  margin-right: 99px;
+}
+.customer-info {
+  margin-top: 14px;
+  margin-left: 13px;
+}
+.customer-id {
+  margin-top: 14px;
+  margin-left: 140px;
+}
+.customer-address {
+  width: 120px;
+  text-align: center;
+  font-size: 12px;
+  height: 55px;
+  background-color: #ffffff;
+  border: 0px;
+  border-radius: 8px;
+  margin-left: 60px;
+  padding: 1px;
+}
+.customer-number {
+  margin-top: 14px;
+  margin-left: 60px;
+}
+.phone-number {
+  margin-left: 30px;
+}
+.prescription {
+  margin-left: 30px;
+}
+.e-prescription {
+  width: 125px;
+  margin-left: 85px;
+  margin-top: 10px;
+  height: 33px;
+  font-size: 13px;
+  border-radius: 4px;
+  border: 1px;
+  background-color: #ffffff;
+}
+.e-pres {
+  width: 125px;
+  margin-left: 85px;
+  margin-top: 10px;
+  height: 33px;
+  font-size: 13px;
+  border: 0px;
+  background-color: #f5f5f7;
+}

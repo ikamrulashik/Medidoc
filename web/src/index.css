@@ -6,84 +6,77 @@
 body {
   margin: 0;
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 .navbar-brand {
-    height: 50%;
-    width: 50%;
+  height: 50%;
+  width: 50%;
 }
-.btn-outline-primary{
+.btn-outline-primary {
   margin: 10px;
 }
 
 /* home content */
- #header {
-   width: 100%;
-   height: 50vh;
-   margin-top: 70px;
- }
- #home-title{
+#header {
   width: 100%;
   height: 50vh;
   margin-top: 70px;
- }
+}
+#home-title {
+  width: 100%;
+  height: 50vh;
+  margin-top: 70px;
+  margin-left: 40px;
+}
 
- #home-title h1{
-   margin: 0 0 10px 0;
-   font-size: 48px;
-   font-weight: 700;
-   color: black;
- }
- #home-title .brand-name{
-   color: #268065;
- }
- #home-title h2{
-   color: #484847;
-   font-size: 25px;
- }
- #home-title .btn-get {
-   font-weight: 500;
-   font-size: 16px;
-   letter-spacing: 1px;
-   display: inline-block;
-   padding: 10px 30px;
-   border-radius: 50px;
-   transition: 0.5s;
-   color: #268065;
-   border: 1px solid #268065;
-   text-decoration: none;
- }
- #home-title .btn-get:hover {
-   background: #268065;
-   color: #fff;
- }
- .header-img {
-   text-align: right;
- }
- #home-title .animated {
-   animation: up-down 2s ease-in-out infinite alternate-reverse both;
- }
- #header .animated {
+#home-title h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+#home-title .brand-name {
+  color: #268065;
+}
+#home-title h2 {
+  color: #484847;
+  font-size: 25px;
+}
+#home-title .btn-get {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #268065;
+  border: 1px solid #268065;
+  text-decoration: none;
+}
+#home-title .btn-get:hover {
+  background: #268065;
+  color: #fff;
+}
+.header-img {
+  text-align: right;
+}
+#home-title .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
- @-webkit-keyframes up-down {
-   0% {
-     transform: translateY(10px);
-   }
-   100% {
-     transform: translateY(-10px);
-   }
- }
- @keyframes up-down {
+#header .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
   0% {
     transform: translateY(10px);
   }
@@ -91,48 +84,53 @@ code {
     transform: translateY(-10px);
   }
 }
-#navauth{
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+#navauth {
   align-content: left;
 }
 .nav-avatar {
   width: 40px;
   justify-content: center;
 }
-.nav-mess{
+.nav-mess {
   margin-top: 11px;
   width: 20px;
 }
-.nav-noti{
+.nav-noti {
   margin-top: 0px;
   width: 25px;
 }
-.doc-img{
+.doc-img {
   width: 40%;
 }
-.phar-img{
-  width: 13.5%;
-}
-.card-patient{
+
+.card-patient {
   padding: 10px;
   border-radius: 15px;
   border-color: none;
   height: 75px;
-  
 }
-.card-npd{
+.card-npd {
   padding: 10px;
   border-radius: 15px;
   border-color: none;
   height: 275px;
 }
 
-.pat-avatar{
+.pat-avatar {
   position: absolute;
   width: 64px;
   height: 50px;
   left: 16px;
 }
-.pat-text{
+.pat-text {
   position: absolute;
   width: 160px;
   height: 0px;
@@ -144,7 +142,7 @@ code {
   line-height: 23px;
   color: #000000;
 }
-.patient-status{
+.patient-status {
   position: absolute;
   width: 87px;
   height: 25px;
@@ -156,10 +154,10 @@ code {
   font-size: 21px;
   line-height: 25px;
   text-align: center;
-  color: #00B2FF;
+  color: #00b2ff;
 }
 
-.patient-header{
+.patient-header {
   position: absolute;
   left: 100px;
   font-family: Roboto;
@@ -168,55 +166,55 @@ code {
   font-size: 12px;
 }
 
-.doctor-header{
+.doctor-header {
   text-align: center;
   height: 25vh;
   justify-content: center;
 }
-.phar-header{
+.phar-header {
   height: 25vh;
   text-align: center;
   justify-content: center;
 }
-.header-image{
+.header-image {
   position: absolute;
   width: 110vh;
   height: 480px;
   left: 60%;
   top: 4%;
 }
-.phar-image{
+.phar-image {
   position: absolute;
   width: 100vw;
   height: 50vh;
   left: 60%;
   top: 4%;
 }
-.patient-call{
+.patient-call {
   position: absolute;
   width: 100px;
   left: 450px;
   top: 10px;
 }
-.patient-details{
+.patient-details {
   position: absolute;
   left: 50px;
   top: 100px;
   width: 500px;
   text-align: center;
 }
-.btn-ptnt{
+.btn-ptnt {
   position: absolute;
   left: 50px;
   top: 200px;
   text-decoration: none;
 }
-.divider{
-  width:5px;
-  height:auto;
-  display:inline-block;
+.divider {
+  width: 5px;
+  height: auto;
+  display: inline-block;
 }
-.card-content{
+.card-content {
   padding: 20px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -224,36 +222,36 @@ code {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   padding: 30px;
 }
-.datetime{
+.datetime {
   text-align: center;
 }
 
 /* video call */
 
-.video-frame{
+.video-frame {
   position: absolute;
   width: 60vw;
   height: 60vh;
   left: 5%;
   top: 170px;
-  background: #E8F8FF;
-  border: 1px solid #C4C4C4;
+  background: #e8f8ff;
+  border: 1px solid #c4c4c4;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 10px;
 }
-.video-chat{
+.video-chat {
   position: absolute;
   width: 25vw;
   height: 80vh;
   left: 70%;
   top: 121px;
-  background: #E8F8FF;
-  border: 1px solid #C4C4C4;
+  background: #e8f8ff;
+  border: 1px solid #c4c4c4;
   box-sizing: border-box;
   border-radius: 10px;
 }
-.add-medicine{
+.add-medicine {
   padding: 20px;
   float: left;
   position: absolute;
@@ -262,17 +260,17 @@ code {
   width: 200px;
   transform: translateY(-50%);
 }
-.pres-btn{
+.pres-btn {
   position: absolute;
   width: 10vw;
   height: 5vh;
-  left:5%;
+  left: 5%;
   top: 80%;
-  background: #605BFF;
+  background: #605bff;
   border-radius: 10px;
   color: white;
 }
-.navbar-logo{
+.navbar-logo {
   width: 90px;
 }
 
@@ -301,7 +299,7 @@ code {
   top: 150px;
   border: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.video body > .video-header{
+.video body > .video-header {
   left: 90px;
   padding: 10px;
   font-family: Roboto;
@@ -314,7 +312,7 @@ code {
   font-family: Roboto;
   font-style: normal;
 }
-#patient-title h1{
+#patient-title h1 {
   margin: 0 0 15px 0;
   font-size: 35px;
   font-weight: 800;
@@ -340,8 +338,7 @@ code {
 #patient-title .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
-.patient-service{
+.patient-service {
   text-align: center;
   height: 30vh;
-
 }

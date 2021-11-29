@@ -12,6 +12,9 @@ import React from 'react';
 import { render } from 'react-dom';
 import VideoCall from './routes/VideoCall';
 import Pharmacy from './routes/Pharmacy';
+import Medicine from './routes/Medicine';
+import Customer from './routes/Customer';
+import Invoice from './routes/Invoice';
 
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
         <Route exact path="/patient" component={PatientHome}/>
         <Route exact path="/doctor" component={Doctor}/>
         <Route exact path="/pharmacy" component={Pharmacy}/>
+        <Route exact path="/customer" component={Customer}/>
+        <Route exact path="/invoice" component={Invoice}/>
+        <Route exact path="/medicine" component={Medicine}/>
         <Route exact path="/videocall" component={VideoCall}/>
       </BrowserRouter> 
       

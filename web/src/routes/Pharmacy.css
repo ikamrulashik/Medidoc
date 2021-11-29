@@ -1,0 +1,84 @@
+.overflow {
+  overflow-x: hidden;
+}
+.header-margin {
+  margin-top: 70px;
+}
+.avatar-size {
+  width: 35%;
+}
+.medicine-border {
+  border: 1px solid #f5f5f7;
+  border-radius: 14px;
+  width: 620px;
+  background-color: #f5f5f7;
+}
+.pill-icon {
+  font-size: 40px;
+}
+.order-btn {
+  background-color: #ee8651;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-radius: 8px;
+  border: 0px solid;
+}
+.detail-btn {
+  background-color: #ee8651;
+  color: white;
+  width: 129px;
+  height: 32px;
+  border-radius: 8px;
+  border: 0px solid;
+  font-size: 12px;
+}
+.input-box {
+  margin-left: 120px;
+  width: 300px;
+  border-radius: 14px;
+  border: 1px solid grey;
+  height: 40px;
+}
+
+* {
+  /* Reset browser's padding and margin */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* The point of this tutorial is here */
+.form {
+  display: flex;
+  flex-direction: row;
+}
+.search-field {
+  width: 330px;
+  padding: 10px 35px 10px 15px;
+  border: 1px solid grey;
+  border-radius: 14px;
+  outline: none;
+  margin-left: 33px;
+}
+
+.search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-left: -283px;
+}
+
+.search-button img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.details {
+  background-color: #f5f5f7;
+  border-radius: 14px;
+}
+.qr-icon {
+  font-size: 120px;
+}
