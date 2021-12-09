@@ -1,9 +1,11 @@
 {
-  "name": "CSE499-Group07-Medidoc",
+  "name": "cse499-group07-medidoc",
   "version": "1.0.0",
   "description": "This is a Web based application which combines all the required healthcare services in a single platform. The system will connect the Doctors, Patients and the Pharmacy and will contains different interface for each type.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +20,9 @@
   },
   "homepage": "https://github.com/ikamrulashik/CSE499-Group07-Medidoc#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.15"
   }
 }
