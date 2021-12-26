@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Col, Container, Row, Form, Button } from "react-bootstrap";
 import NavbarC from "../components/NavbarC";
 import Footer from "../components/Footer";
+import React, {useState} from 'react'
 
 var link = {
   color: "blue",
@@ -20,6 +21,18 @@ var register = {
 };
 
 function Login() {
+
+  const [email, setEmail] = useState('')
+  const [pass, setPass] = useState('')
+
+  const handleLogin=(e)=> {
+    e.preventDefault()
+    if (email == '' & pass == '')
+      alert ("Successfully login")
+    else
+      alert("Wrong credentials")
+  }
+
   return (
     <div style={{ backgroundColor: "#F1F8FF", minHeight: "100vh" }}>
       <NavbarC />
@@ -32,13 +45,13 @@ function Login() {
             </div>
           </Col>
           <Col lg={4} md={12} sm={12} className="text-center mt-2 p-3">
-            <Form>
+            <Form onSubmit={handleLogin}>
               <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Control type="email" placeholder="Your email" />
+                <Form.Control type="email" placeholder="Your email" value ={email} onChange={(e) => setEmail(e.target.value)}/>
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Control type="password" placeholder="Password" />
+                <Form.Control type="password" placeholder="Password" value={pass} onChange={(e) => setPass(e.target.value)}/>
               </Form.Group>
               <div className="d-grid gap-2">
                 <Button type="submit" variant="primary" size="lg">
