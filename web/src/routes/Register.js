@@ -11,6 +11,22 @@ var login = {
 };
 
 function Register() {
+  const [fname, setFname] = useState ('')
+  const [sname, setSname] = useState ('')
+  const [email, setEmail] = useState ('')
+  const [pass, setPass] = useState ('')
+  const [dob, setDob] = useState ('')
+  const [gender, setGender] = useState ('')
+  const [user, setUser] = useState ('')
+
+  const handleSignup = (e)=> {
+    e.preventDefault()
+    if (email =='')
+      alert ("Signup Successfully")
+    else 
+      alert ("That email is already used")
+  }
+
   return (
     <div style={{ backgroundColor: "#F1F8FF", minHeight: "100vh" }}>
       <NavbarC />
@@ -22,14 +38,14 @@ function Register() {
             </div>
           </Col>
           <Col lg={4} md={6} sm={12} className="text-center mt-1 ">
-            <Form>
+            <Form onSubmit = {handleSignup}>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Row className="g-2">
                   <Col md>
-                    <Form.Control type="text" placeholder="First name" />
+                    <Form.Control type="text" placeholder="First name" value = {fname}  onChange={(e) => setFname(e.target.value)}/>
                   </Col>
                   <Col md>
-                    <Form.Control type="text" placeholder="Surname" />
+                    <Form.Control type="text" placeholder="Surname" value = {sname}  onChange={(e) => setSname(e.target.value)}/>
                   </Col>
                 </Row>
               </Form.Group>
@@ -37,19 +53,19 @@ function Register() {
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Control
                   type="text"
-                  placeholder="Enter address or phone number"
+                  placeholder="Enter address" value = {email}  onChange={(e) => setEmail(e.target.value)}
                 />
               </Form.Group>
 
               <Form.Group className="mb-3" controlId="formBasicPassword">
-                <Form.Control type="password" placeholder="New Password" />
+                <Form.Control type="password" placeholder="New Password" value = {pass}  onChange={(e) => setPass(e.target.value)}/>
               </Form.Group>
 
               <Form.Group controlId="dob">
                 <Form.Control
                   type="date"
                   name="dob"
-                  placeholder="Date of Birth"
+                  placeholder="Date of Birth" value = {dob} onChange={(e) => setDob(e.target.value)}
                 />
               </Form.Group>
 
@@ -62,7 +78,7 @@ function Register() {
                     </Form.Label>
                     <Form.Select
                       className="me-sm-2"
-                      id="inlineFormCustomSelect"
+                      id="inlineFormCustomSelect" value = {gender} onChange={(e) => setGender(e.target.value)}
                     >
                       <option value="0">Male</option>
                       <option value="1">Female</option>
@@ -78,7 +94,7 @@ function Register() {
                     </Form.Label>
                     <Form.Select
                       className="me-sm-2"
-                      id="inlineFormCustomSelect"
+                      id="inlineFormCustomSelect" value = {user} onChange={(e) => setUser(e.target.value)}
                     >
                       <option value="0">Patient</option>
                       <option value="1">Doctor</option>
