@@ -19,13 +19,13 @@ const Side = props => {
                     <Nav.Link href="/doctor" className="side_link">Dashboard</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-1" className="side_link">Invoice</Nav.Link>
+                    <Nav.Link eventKey="/invoice" className="side_link">Invoice</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-2" className="side_link">Medicine</Nav.Link>
+                    <Nav.Link eventKey="/medicine" className="side_link">Medicine</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-3" className="side_link">Customer</Nav.Link>
+                    <Nav.Link eventKey="/customer" className="side_link">Customer</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Link to ="/" className="nav-link"><img src={authout} width="15" height="25"className="logout"/></Link>

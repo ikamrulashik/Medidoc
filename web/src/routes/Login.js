@@ -1,15 +1,14 @@
-import React from "react";
+import React, {useState} from 'react'
 import doctor from "../images/doctor.svg";
 import { Link } from "react-router-dom";
 import { Col, Container, Row, Form, Button } from "react-bootstrap";
-import NavbarC from "../components/NavbarC";
-import Footer from "../components/Footer";
-import React, {useState} from 'react'
+import NavbarC from "../components/NavbarC"
+import Footer from "../components/Footer"
 
 var link = {
   color: "blue",
   textDecoration: "none",
-};
+}
 var register = {
   color: "white",
   padding: "8px 24px",
@@ -18,7 +17,7 @@ var register = {
   fontStyle: "bold",
   margin: "20px",
   textDecoration: "none",
-};
+}
 
 function Login() {
 
